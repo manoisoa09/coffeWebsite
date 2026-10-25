@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <!-- lien des icone -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- liuen CDN swiper  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+    <title>Coffe | website</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav class="navbar section_content">
+        <a href="#" class="nav_logo">
+          <h2 class="text_logo">☕ Coffe</h2>
+        </a>
+        <ul class="nav_list">
+          <button id="btn_close_menu" class="fas fa-times"></button>
+          <li class="nav-item">
+            <a href="#" class="nav_link">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav_link">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav_link">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav_link">Temoins</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav_link">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav_link">Contact</a>
+          </li>
+        </ul>
+        <button id="btn_open_menu" class="fas fa-bars"></button>
+      </nav>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero-section">
+      <div class="section_content">
+        <div class="hero_details">
+          <h2 class="title">Meuilleur café</h2>
+          <h3 class="subtitle">
+            Faites votre journée meuilleur avec notre café!
+          </h3>
+          <p class="description">
+            Bienvenue dans notre paradis du café, où chaque grain raconte une
+            histoire et chaque tasse fait naître la joie.
+          </p>
+          <div class="buttons">
+            <a href="" class="button order_now">Order Now</a>
+            <a href="" class="button contact_us">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero_imge_wrapper">
+          <img src="/assets/images/coffee-hero-section.png" alt="image-hero" />
+        </div>
+      </div>
+    </section>
+
+    <!-- section a propos -->
+    <section class="about_section">
+      <div class="about_content">
+        <div class="about-image-wrapper">
+          <img src="/assets/images/about-image.jpg" alt="about-image" />
+        </div>
+        <div class="about_details">
+          <h2 class="section_title">A Propos de nous</h2>
+          <p class="about_text">
+            Chez Coffee à Berndorf, en Allemagne, nous sommes fiers d’être une
+            destination incontournable pour les amateurs de café et les
+            passionnés de conversations. Nous nous engageons à offrir une
+            expérience café exceptionnelle dans une ambiance chaleureuse et
+            accueillante, où chacun peut se détendre, se relaxer et profiter
+            pleinement de son moment de confort.
+          </p>
+          <div class="social_list_link">
+            <a href="#" class="social_link"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a href="#" class="social_link"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="social_link"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- menu section -->
+    <section class="menu_section">
+      <h2 class="menu_title">Notre Menu</h2>
+      <div class="section_content">
+        <ul class="menu_list">
+          <li class="menu_item">
+            <img src="/assets/images/hot-beverages.png" alt="hot-beverages" />
+            <h3 class="name">Hot beverages</h3>
+            <p class="text">
+              Un large choix de cafés fumants pour vous réveiller et vous
+              revitaliser.
+            </p>
+          </li>
+          <li class="menu_item">
+            <img src="/assets/images/cold-beverages.png" alt="cold beverages" />
+            <h3 class="name">Cold beverages</h3>
+            <p class="text">
+              Un large choix de cafés fumants pour vous réveiller et vous
+              revitaliser.
+            </p>
+          </li>
+          <li class="menu_item">
+            <img src="/assets/images/refreshment.png" alt="refreshment" />
+            <h3 class="name">refreshment</h3>
+            <p class="text">
+              Un large choix de cafés fumants pour vous réveiller et vous
+              revitaliser.
+            </p>
+          </li>
+          <li class="menu_item">
+            <img src="/assets/images/special-combo.png" alt="combot" />
+            <h3 class="name">Combot special</h3>
+            <p class="text">
+              Un large choix de cafés fumants pour vous réveiller et vous
+              revitaliser.
+            </p>
+          </li>
+          <li class="menu_item">
+            <img src="/assets/images/desserts.png" alt="desserts" />
+            <h3 class="name">Dessert</h3>
+            <p class="text">
+              Un large choix de cafés fumants pour vous réveiller et vous
+              revitaliser.
+            </p>
+          </li>
+          <li class="menu_item">
+            <img
+              src="/assets/images/burger-frenchfries.png"
+              alt="burger-frenchfries"
+            />
+            <h3 class="name">Burger & Francais</h3>
+            <p class="text">
+              Un large choix de cafés fumants pour vous réveiller et vous
+              revitaliser.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- temoins -->
+    <section class="testimonials_section">
+      <h2 class="testimonials_title">Que dise nos client?</h2>
+      <div class="section_content">
+        <div class="slider_contenair swiper">
+          <div class="slider_wrapper">
+            <ul class="testimonials_list swiper-wrapper">
+              <li class="testimonials swiper-slide">
+                <img
+                  src="/assets/images/user-1.jpg"
+                  alt="user-1"
+                  class="user-image"
+                />
+                <h3 class="name">Sarah Joe</h3>
+                <i class="feedback"
+                  >« J’ai adoré le café torréfié à la française. Parfaitement
+                  équilibré et riche en saveurs. J’en commanderai à nouveau !
+                  »</i
+                >
+              </li>
+              <li class="testimonials swiper-slide">
+                <img
+                  src="/assets/images/user-2.jpg"
+                  alt="user-1"
+                  class="user-image"
+                />
+                <h3 class="name">Leon 14</h3>
+                <i class="feedback"
+                  >« J’ai adoré le café torréfié à la française. Parfaitement
+                  équilibré et riche en saveurs. J’en commanderai à nouveau !
+                  »</i
+                >
+              </li>
+              <li class="testimonials swiper-slide">
+                <img
+                  src="/assets/images/user-3.jpg"
+                  alt="user-1"
+                  class="user-image"
+                />
+                <h3 class="name">Jeannette</h3>
+                <i class="feedback"
+                  >« J’ai adoré le café torréfié à la française. Parfaitement
+                  équilibré et riche en saveurs. J’en commanderai à nouveau !
+                  »</i
+                >
+              </li>
+              <li class="testimonials swiper-slide">
+                <img
+                  src="/assets/images/user-4.jpg"
+                  alt="user-1"
+                  class="user-image"
+                />
+                <h3 class="name">Jeannette</h3>
+                <i class="feedback"
+                  >« J’ai adoré le café torréfié à la française. Parfaitement
+                  équilibré et riche en saveurs. J’en commanderai à nouveau !
+                  »</i
+                >
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-pagination-button swiper-button-prev"></div>
+            <div class="swiper-pagination-button swiper-button-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="gallery_section">
+      <h2 class="section_title">Gallery</h2>
+      <div class="section_content">
+        <ul class="gallery_list">
+          <li class="gallery_item">
+            <img src="/assets/images/gallery-1.jpg" alt="" />
+          </li>
+          <li class="gallery_item">
+            <img src="/assets/images/gallery-2.jpg" alt="" />
+          </li>
+          <li class="gallery_item">
+            <img src="/assets/images/gallery-3.jpg" alt="" />
+          </li>
+          <li class="gallery_item">
+            <img src="/assets/images/gallery-4.jpg" alt="" />
+          </li>
+          <li class="gallery_item">
+            <img src="/assets/images/gallery-5.jpg" alt="" />
+          </li>
+          <li class="gallery_item">
+            <img src="/assets/images/gallery-5.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- contact-info -->
+    <section class="section_contact">
+      <h2 class="section_title">Contactez-Nous</h2>
+      <div class="section_content">
+        <ul class="contact_info_list">
+          <li class="contact_info">
+            <i class="fa-solid fa-location-crosshairs"></i>
+            <p>Lot C010 p/elle 11/45 Mangarano II -TOAMASINA 501</p>
+          </li>
+          <li class="contact_info">
+            <i class="fa-solid fa-globe"></i>
+            <p>www.moncafé.mg</p>
+          </li>
+
+          <li class="contact_info">
+            <i class="fa-solid fa-phone"></i>
+            <p>+261 34 28 598 35</p>
+          </li>
+
+          <li class="contact_info">
+            <i class="fa-regular fa-clock"></i>
+            <p>Lun - Sam : 8h00 - 18h00</p>
+          </li>
+          <li class="contact_info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>contact@votresite.com</p>
+          </li>
+        </ul>
+        <!-- formulaire de conatct -->
+        <form action="#" class="form_contact">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="Votre Nom"
+            required
+          />
+          <input
+            type="email"
+            class="form-input"
+            placeholder="Votre Email"
+            required
+          />
+          <textarea
+            placeholder="Votre message"
+            class="form-input"
+            required
+          ></textarea>
+          <button class="button-submit" type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
+<!-- Footer -->
+<footer class="footer">
+    <div class="section_content">
+
+        <div class="footer_content">
+
+            <!-- Colonne 1 : Logo et réseaux sociaux -->
+            <div class="footer_column">
+                <a href="#" class="footer_logo">☕ Coffee</a>
+
+                <p class="footer_description">
+                    Un café de qualité, une ambiance chaleureuse
+                    et des moments de bonheur à chaque tasse.
+                </p>
+
+                <div class="footer_social">
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Colonne 2 : Liens rapides -->
+            <div class="footer_column">
+                <h3>Liens rapides</h3>
+
+                <ul class="footer_links">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Notre menu</a></li>
+                    <li><a href="#">Témoignages</a></li>
+                    <li><a href="#">Galerie</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Colonne 3 : Contact -->
+            <div class="footer_column">
+                <h3>Contactez-nous</h3>
+
+                <ul class="footer_links">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Toamasina 501, Madagascar
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        +261 34 28 598 35
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        contact@votresite.com
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Colonne 4 : Horaires et abonnement -->
+            <div class="footer_column">
+                <h3>Nos horaires</h3>
+
+                <ul class="footer_links">
+                    <li>Lundi - Vendredi : 8h - 18h</li>
+                    <li>Samedi : 8h - 18h</li>
+                    <li>Dimanche : Fermé</li>
+                </ul>
+
+                <h3 class="newsletter_title">Notre newsletter</h3>
+
+                <p class="newsletter_text">
+                    Recevez nos nouveautés et nos offres par e-mail.
+                </p>
+
+                <form class="newsletter_form" action="#" method="post">
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="Votre adresse e-mail"
+                        aria-label="Votre adresse e-mail"
+                        required
+                    >
+
+                    <button type="submit" aria-label="S'abonner">
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer_bottom">
+            <p>
+                &copy; 2026 Coffee. Tous droits réservés.
+            </p>
+
+            <p>
+              <i class="fa-solid fa-users"></i>   :Designed by Equipe coffe-dev
+            </p>
+        </div>
+
+    </div>
+</footer>
+    
+    <!-- script pour le swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <!-- script de base  -->
+    <script src="assets/app.js"></script>
+  </body>
+</html>
