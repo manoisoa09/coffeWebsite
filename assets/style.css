@@ -162,6 +162,24 @@ header {
     margin-left: 30px;
 }
 
+.hero_imge_wrapper img {
+  animation:saut 2s infinite ease-in-out alternate ;
+}
+
+
+    @keyframes saut {
+        0% {
+            transform:translateY(10px);
+        }
+
+        100% {
+            transform:translateY(-10px);
+        }
+        
+
+    }
+
+
 .buttons {
     display: flex;
     gap: 23px;
